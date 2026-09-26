@@ -37,7 +37,7 @@ print(age)
 print(gps)
 print(address)
 
-
+# Operators in python
 a = 10
 b = 20
 
@@ -52,3 +52,15 @@ print(a ** b)
 
 num = 20
 print(num % 2 == 0)
+
+#Comparision operators
+
+y = 10
+
+print(y == 10)
+print(y != 10)
+print(y > 5)
+print(y < 5)
+print(y >= 10)
+print(y <= 10)
+
