@@ -87,4 +87,15 @@ age2 = 30
 
 is_student = False
 print(not is_student)  #if the value is true then it will return false and vice versa.
- 
+
+
+#Assignment operators
+x = 10
+#x += 5 #x = x + 5
+#x -= 6 #x = x - 6
+#x *= 6 #x = x * 6
+#x /= 6 #x = x / 6
+#x %= 6 #x = x % 6
+#x //= 6 #x = x // 6
+x **= 6 #x = x ** 6
+print(x)
