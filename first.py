@@ -26,3 +26,9 @@ print(type(x))
 x = "Hello"
 print(x)
 print(type(x))
+
+Name = "Ram"
+print(Name)
+NAME = "Ramesh"
+print(NAME)
+
