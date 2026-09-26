@@ -101,7 +101,7 @@ x **= 6 #x = x ** 6
 print(x)
 
 
-#Identity Operators
+#Identity Operators here is and is not are identity operators which are used to compare the objects, not the values. It checks whether the two objects are the same or not.
 a = 10
 print(a is 10)
 
@@ -110,3 +110,12 @@ print(b is not 20)
 
 c = 30
 print( c is not 30)
+
+
+#Membership Operators
+#in and not in are membership operators which are used to test whether a sequence is presented in an object or not. It returns True if the value is found in the sequence and False if the value is not found in the sequence.
+
+name = 'Ranjita Thapa Chhetri'
+print('p' in name)
+print('I' in name)
+print('i' in name)
