@@ -32,3 +32,7 @@ print(Name)
 NAME = "Ramesh"
 print(NAME)
 
+age , gps , address = 90 , 4.00 , "Balkumari"  #we can assign multiple values to multiple variables in a single line.
+print(age)
+print(gps)
+print(address)
