@@ -142,3 +142,9 @@ name = 'Ranjita Thapa Chhteri'
 print(name[12])
 print(name[3])
 
+#Negative Indexing
+name = "Ramesh"
+print(name[-1])
+print(name[3])
+print(name[-3])
+
