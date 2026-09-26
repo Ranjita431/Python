@@ -119,3 +119,26 @@ name = 'Ranjita Thapa Chhetri'
 print('p' in name)
 print('I' in name)
 print('i' in name)
+
+
+number = 27
+if(number % 2 == 0):
+    print("The number is even")
+else:
+    print("The number is Odd")
+
+#Strings in python
+name = "Ranjita"
+college = 'NCIT'   #They both are same, we can use single or double quotes to define a string in python.
+
+
+age = "20" #This is string because it is in quotes. If we remove the quotes then it will be an integer.
+age = 20
+
+#we can check the type of variable using type() function.
+
+#String Indexing
+name = 'Ranjita Thapa Chhteri'
+print(name[12])
+print(name[3])
+
