@@ -45,3 +45,10 @@ print(a + b)
 print(a - b)
 print(a * b)
 print(a / b)
+print(a % b)
+print(a // b)
+print(a ** b)
+
+
+num = 20
+print(num % 2 == 0)
