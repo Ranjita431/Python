@@ -99,3 +99,14 @@ x = 10
 #x //= 6 #x = x // 6
 x **= 6 #x = x ** 6
 print(x)
+
+
+#Identity Operators
+a = 10
+print(a is 10)
+
+b = 20
+print(b is not 20)
+
+c = 30
+print( c is not 30)
