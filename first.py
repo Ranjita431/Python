@@ -75,3 +75,8 @@ print(age1 >=23 and age1 <= 22)
 #True AND False = False
 #False AND True = False
 #False AND False = False
+
+age2 = 30
+#print( age2 > 18 or age2 < 2)
+#print( age2 > 33 or age2 < 28)  if one of the condition is true then the output will be true.
+ 
