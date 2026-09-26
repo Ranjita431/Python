@@ -79,4 +79,12 @@ print(age1 >=23 and age1 <= 22)
 age2 = 30
 #print( age2 > 18 or age2 < 2)
 #print( age2 > 33 or age2 < 28)  if one of the condition is true then the output will be true.
+
+#NOT
+
+#is_student = True
+#print(not is_student)  #if the value is true then it will return false and vice versa.
+
+is_student = False
+print(not is_student)  #if the value is true then it will return false and vice versa.
  
