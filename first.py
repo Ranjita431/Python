@@ -18,3 +18,11 @@ print(type(name))
 print(type(age))
 print(type(gpa))
 print(type(is_student))
+
+x = 10
+print(x)
+print(type(x))
+
+x = "Hello"
+print(x)
+print(type(x))
