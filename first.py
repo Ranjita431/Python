@@ -64,3 +64,14 @@ print(y < 5)
 print(y >= 10)
 print(y <= 10)
 
+#Logical operators
+age = 30
+print(age > 18 and age < 45)
+
+age1 = 22
+print(age1 >=23 and age1 <= 22)
+
+#True AND True = True
+#True AND False = False
+#False AND True = False
+#False AND False = False
