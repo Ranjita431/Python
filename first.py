@@ -36,3 +36,12 @@ age , gps , address = 90 , 4.00 , "Balkumari"  #we can assign multiple values to
 print(age)
 print(gps)
 print(address)
+
+
+a = 10
+b = 20
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
