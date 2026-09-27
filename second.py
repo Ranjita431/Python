@@ -8,3 +8,5 @@ print(name[3:])
 #Slicing with step
 print(name[0:6:2])
 
+#Reverse a string
+print(name[::-1])
