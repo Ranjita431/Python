@@ -77,3 +77,11 @@ print(email.startswith('raj'))
 #Endswith() method
 print(email.endswith('.np'))
 print(email.endswith('.com'))
+
+
+#Spliting 
+
+text = 'I love programming'
+
+words =text.split()
+print(words)
