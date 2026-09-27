@@ -35,6 +35,21 @@ print('*'*20 + 'Hello World' + '*'*20)
 
 #Important string methods
 name = 'Ranjita Thapa Chhetri'
-print(name.upper())
+print(name.upper()) #turns all the letters of the string into upper case
 
-print(name.lower())
+print(name.lower()) # truns all the letters of the string into lower case
+
+print(name.title()) #makes the first letter of each word capital
+
+print(name.capitalize()) #make only the first letter of the string capital
+
+
+#Strip 
+name ='         Rajesh Thapa Chhteri      '
+print (name.strip()) #remove all the space from the start and end of the string
+
+
+#.replace() method
+
+text ='Im going to be millionaire before 2030'
+print(text.replace('millionaire', ' trillianore'))
