@@ -64,3 +64,5 @@ print(text.find('millionaire')) #returns the index of the first occurrence of th
 text = 'I love programming in python'
 print('Programmming' in text)
 print('programming' in text)
+
+print('pyyyyyython' not in text)
