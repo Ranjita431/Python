@@ -10,3 +10,10 @@ print(name[0:6:2])
 
 #Reverse a string
 print(name[::-1])
+
+#String length
+name = 'Ranjita Thapa Chhetri'
+print(len(name))
+
+clz = 'Nepal College of Information Technology'
+print(len(clz))
