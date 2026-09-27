@@ -25,3 +25,16 @@ second_name = 'Chhetri'
 
 Total_name = first_name + ' ' + second_name
 print(Total_name)
+
+
+#printing a string multiple times    
+print('Ranjita ' *10)
+
+print('*'*20 + 'Hello World' + '*'*20)
+
+
+#Important string methods
+name = 'Ranjita Thapa Chhetri'
+print(name.upper())
+
+print(name.lower())
