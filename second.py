@@ -73,3 +73,7 @@ email = 'ranjita.231526@ncit.edu.np'
 
 print(email.startswith('ranjita'))
 print(email.startswith('raj'))
+
+#Endswith() method
+print(email.endswith('.np'))
+print(email.endswith('.com'))
