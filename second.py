@@ -84,4 +84,5 @@ print(email.endswith('.com'))
 text = 'I love programming'
 
 words =text.split()
-print(words)
+#print(words)
+print(text.split(','))
