@@ -5,4 +5,6 @@ print(name[0:3])
 #Leaving start or end empty
 print(name[:3])
 print(name[3:])
+#Slicing with step
+print(name[0:6:2])
 
