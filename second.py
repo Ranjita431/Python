@@ -53,3 +53,8 @@ print (name.strip()) #remove all the space from the start and end of the string
 
 text ='Im going to be millionaire before 2030'
 print(text.replace('millionaire', ' trillianore'))
+
+
+#.find() method
+text ='Im going to be millionaire before 2030'
+print(text.find('millionaire')) #returns the index of the first occurrence of the substring. If not found, it returns -1.
