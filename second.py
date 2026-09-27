@@ -58,3 +58,9 @@ print(text.replace('millionaire', ' trillianore'))
 #.find() method
 text ='Im going to be millionaire before 2030'
 print(text.find('millionaire')) #returns the index of the first occurrence of the substring. If not found, it returns -1.
+
+
+#usind in operator to check if a substring is present in the string
+text = 'I love programming in python'
+print('Programmming' in text)
+print('programming' in text)
