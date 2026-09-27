@@ -66,3 +66,10 @@ print('Programmming' in text)
 print('programming' in text)
 
 print('pyyyyyython' not in text)
+
+
+#Startwith() method
+email = 'ranjita.231526@ncit.edu.np'
+
+print(email.startswith('ranjita'))
+print(email.startswith('raj'))
