@@ -17,3 +17,11 @@ print(len(name))
 
 clz = 'Nepal College of Information Technology'
 print(len(clz))
+
+#Joining two strings
+
+first_name = 'Ranjita Thapa'
+second_name = 'Chhetri'
+
+Total_name = first_name + ' ' + second_name
+print(Total_name)
