@@ -86,3 +86,12 @@ text = 'I love programming'
 words =text.split()
 #print(words)
 print(text.split(','))
+
+#Joining string
+words = ['I' , 'Love', 'Programming', 'in', 'Python']
+sentence = ' '.join(words)
+print( sentence)
+
+name =['My' , 'Name','is', 'Ranjita', 'Thapa', 'Chhetri']
+wname = ''.join(name)
+print(name)
