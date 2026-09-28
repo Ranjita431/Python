@@ -115,3 +115,11 @@ print(f" the sum is {a+b} and the difference is {a-b}")
 name = "Ranjita"
 a = 'S'+ name[1:]  #since strings are immutable, we cannot change the value of a string directly. Instead, we create a new string by concatenating 'S' with the substring of name starting from index 1.
 print(a)
+
+
+#Output
+
+name = 'Ranjita'
+age = 20
+print(name[0]) #prints the first character of the string
+print(name, age) #prints the string and the integer
