@@ -107,5 +107,11 @@ gpa = 4.00
 print(f" I study in grade {grade} and my gps is {gpa}.")
 
 
+a = 100
+b = 200
+print(f" the sum is {a+b} and the difference is {a-b}")
 
-
+#immutable strings
+name = "Ranjita"
+a = 'S'+ name[1:]  #since strings are immutable, we cannot change the value of a string directly. Instead, we create a new string by concatenating 'S' with the substring of name starting from index 1.
+print(a)
