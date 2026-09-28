@@ -95,3 +95,17 @@ print( sentence)
 name =['My' , 'Name','is', 'Ranjita', 'Thapa', 'Chhetri']
 wname = ''.join(name)
 print(name)
+
+
+#F-strings
+name = 'Ranjita'
+age = 20
+#print(f"My name is {name} and I am {age} years old.")
+
+grade = 12
+gpa = 4.00
+print(f" I study in grade {grade} and my gps is {gpa}.")
+
+
+
+
