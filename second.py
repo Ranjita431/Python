@@ -123,3 +123,10 @@ name = 'Ranjita'
 age = 20
 print(name[0]) #prints the first character of the string
 print(name, age) #prints the string and the integer
+
+
+#Printing multiples lines
+print('Hello')
+print('World')
+#instead of using multiple print statements, we can use \n to print multiple lines in a single print statement
+print('Hello\nWorld') #\n is used to print the next linew
