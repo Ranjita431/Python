@@ -1,3 +1,5 @@
-a = 100
-b = 200
-print(f" the sum is {a+b} and the difference is {a-b}")
+#Basic if
+age = 20
+if age >= 18:
+    print('You are eligible to vote')
+    
