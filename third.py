@@ -56,12 +56,12 @@ else:
     print("Fail")
 
 #Taking user input 
-age = int(input("Enter your age: "))
+#age = int(input("Enter your age: "))
 
-if age >= 18:
-    print("You can vote.")
-else:
-    print("You cannot vote.")
+#if age >= 18:
+ #   print("You can vote.")
+#else:
+ #   print("You cannot vote.")
 
 #Multiple conditions with and 
 age = 20
@@ -71,3 +71,12 @@ if age >= 18 and has_id:
     print("Access granted")
 else:
     print("Access denied")
+
+#OR 
+is_student = False
+has_discount_card = True
+
+if is_student or has_discount_card:
+    print("Discount available")
+else:
+    print("No discount")
