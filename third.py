@@ -101,3 +101,10 @@ if age >= 18:
         print("ID required")
 else:
     print("You are underage")
+
+#String conditions
+username = "Ranjita"
+
+if username == "Ranjita":
+    print("Welcome!")
+
