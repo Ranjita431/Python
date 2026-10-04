@@ -25,3 +25,15 @@ if marks >= 40:
     print("Pass")
 else:
     print("Fail")
+
+#if elif and else
+marks = 75
+
+if marks >= 80:
+    print("A")
+elif marks >= 60:
+    print("B")
+elif marks >= 40:
+    print("C")
+else:
+    print("Fail")
