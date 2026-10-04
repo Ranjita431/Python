@@ -45,3 +45,12 @@ if marks >= 40:
     print("Pass")
 elif marks >= 80:
     print("A")  #output will be "Pass" because the first condition is true and the rest will not be checked
+
+if marks >= 80:
+    print("A")
+elif marks >= 60:
+    print("B")
+elif marks >= 40:
+    print("C")
+else:
+    print("Fail")
