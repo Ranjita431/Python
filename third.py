@@ -11,3 +11,9 @@ if age >= 18:
 
 #if age >= 18:
 #print("Adult") #This will give an error because the print statement is not indented properly
+
+#if with a comparison
+marks = 75
+
+if marks >= 40:
+    print("Pass")
