@@ -62,3 +62,12 @@ if age >= 18:
     print("You can vote.")
 else:
     print("You cannot vote.")
+
+#Multiple conditions with and 
+age = 20
+has_id = True
+
+if age >= 18 and has_id:
+    print("Access granted")
+else:
+    print("Access denied")
