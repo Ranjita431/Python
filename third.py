@@ -113,3 +113,14 @@ username = "Ranjita"
 
 if username == "Ranjita":
     print("Welcome!")
+
+#case sensitivity
+name = "Ranjita"
+
+if name == "ranjita":
+    print("Match")   #nothing happens because the case does not match as Ranjita" != "ranjita"
+
+#so we can 
+"Ranjita" != "ranjita"
+
+
