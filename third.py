@@ -37,3 +37,11 @@ elif marks >= 40:
     print("C")
 else:
     print("Fail")
+
+#Order matters in if elif else statements
+marks = 85
+
+if marks >= 40:
+    print("Pass")
+elif marks >= 80:
+    print("A")  #output will be "Pass" because the first condition is true and the rest will not be checked
