@@ -108,3 +108,8 @@ username = "Ranjita"
 if username == "Ranjita":
     print("Welcome!")
 
+#Alsowe c
+username = "Ranjita"
+
+if username == "Ranjita":
+    print("Welcome!")
