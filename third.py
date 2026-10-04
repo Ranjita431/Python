@@ -80,3 +80,12 @@ if is_student or has_discount_card:
     print("Discount available")
 else:
     print("No discount")
+
+#NOT
+is_student = False
+has_discount_card = True
+
+if is_student or has_discount_card:
+    print("Discount available")
+else:
+    print("No discount")
