@@ -17,3 +17,7 @@
 #range(start, stop, step)
 #for number in range(1, 11, 2):
 #    print(number)
+
+#Counting backwards
+for number in range(5, 0, -1):
+    print(number)
