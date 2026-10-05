@@ -45,3 +45,14 @@ for index, character in enumerate(name):
 for number in range(1, 11):
     if number % 2 == 0:
         print(number)
+
+
+#Printing with odd number
+for number in range(1, 11):
+    if number % 2 == 0:
+        print(number)
+
+#while loop
+for number in range(1, 11):
+    if number % 2 != 0:
+        print(number)
