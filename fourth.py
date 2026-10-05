@@ -56,3 +56,11 @@ for number in range(1, 11):
 for number in range(1, 11):
     if number % 2 != 0:
         print(number)
+
+
+#example
+number = 1
+
+while number <= 5:
+    print(number)
+    number += 1
