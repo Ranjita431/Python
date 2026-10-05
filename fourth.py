@@ -11,5 +11,9 @@
 #    print(number)
 
 #range(start, stop)
-for number in range(1, 6):
-    print(number)
+#for number in range(1, 6):
+#    print(number)
+
+#range(start, stop, step)
+#for number in range(1, 11, 2):
+#    print(number)
