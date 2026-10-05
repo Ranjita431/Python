@@ -19,5 +19,17 @@
 #    print(number)
 
 #Counting backwards
-for number in range(5, 0, -1):
-    print(number)
+#for number in range(5, 0, -1):
+#    print(number)
+
+# Looping through a string
+name = "Ranjita"
+
+for character in name:
+    print(character)
+
+# Looping through a string with an index
+name = "Ranjita"
+
+for i in range(len(name)):
+    print(i, name[i])
