@@ -78,3 +78,10 @@ for number in range(1, 11):
         break
 
     print(number)
+
+#continue
+for number in range(1, 11):
+    if number == 5:
+        break
+
+    print(number)
