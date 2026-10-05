@@ -64,3 +64,10 @@ number = 1
 while number <= 5:
     print(number)
     number += 1
+
+
+#infinite loop
+number = 1
+
+while number <= 5:
+    print(number)
