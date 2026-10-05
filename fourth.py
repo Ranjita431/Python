@@ -67,7 +67,14 @@ while number <= 5:
 
 
 #infinite loop
-number = 1
+#number = 1
 
-while number <= 5:
+#while number <= 5:
+#    print(number)
+
+#break
+for number in range(1, 11):
+    if number == 5:
+        break
+
     print(number)
