@@ -33,3 +33,10 @@ name = "Ranjita"
 
 for i in range(len(name)):
     print(i, name[i])
+
+
+#enumerate() function
+name = "Ranjita"
+
+for index, character in enumerate(name):
+    print(index, character)
