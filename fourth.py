@@ -40,3 +40,8 @@ name = "Ranjita"
 
 for index, character in enumerate(name):
     print(index, character)
+
+#for loop with conditions
+for number in range(1, 11):
+    if number % 2 == 0:
+        print(number)
