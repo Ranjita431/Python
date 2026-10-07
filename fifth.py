@@ -24,3 +24,7 @@ names[1] = "David"
 
 print(names)
 
+#len() function
+names = ["Ranjita", "Alex", "John"]
+
+print(len(names))
