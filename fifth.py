@@ -35,3 +35,11 @@ names = ["Ranjita", "Alex"]
 names.append("John")
 
 print(names)
+
+
+#.insert() method
+names = ["Ranjita", "Alex"]
+
+names.append("John")
+
+print(names)
