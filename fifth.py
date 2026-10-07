@@ -28,3 +28,10 @@ print(names)
 names = ["Ranjita", "Alex", "John"]
 
 print(len(names))
+
+#.append() method
+names = ["Ranjita", "Alex"]
+
+names.append("John")
+
+print(names)
