@@ -9,3 +9,10 @@ print(names[2])
 #negative indexing
 print(names[-1])
 print(names[-2])
+
+#list slicing
+numbers = [10, 20, 30, 40, 50]
+print(numbers[1:4])
+print(numbers[:3])
+print(numbers[2:])
+print(numbers[::-1])
