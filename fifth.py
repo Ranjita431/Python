@@ -93,3 +93,13 @@ names = ["Ranjita", "Alex", "John"]
 
 for name in names:
     print(name)
+
+
+#list + if
+marks = [35, 67, 82, 45, 91]
+
+for mark in marks:
+    if mark >= 40:
+        print(mark, "Pass")
+    else:
+        print(mark, "Fail")
