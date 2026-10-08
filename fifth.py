@@ -103,3 +103,10 @@ for mark in marks:
         print(mark, "Pass")
     else:
         print(mark, "Fail")
+
+#finding the largst number in a list
+numbers = [10, 25, 7, 42, 18]
+
+print(max(numbers))
+print(min(numbers))
+print(min(numbers))
