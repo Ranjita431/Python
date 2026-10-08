@@ -60,3 +60,10 @@ names.remove("Alex")
 print(names)
 
 
+#.pop() method
+names = ["Ranjita", "Alex", "John"]
+
+removed = names.pop(1)
+
+print(removed)
+print(names)
