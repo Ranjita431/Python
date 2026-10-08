@@ -67,3 +67,17 @@ removed = names.pop(1)
 
 print(removed)
 print(names)
+
+#del
+names = ["Ranjita", "Alex", "John"]
+
+del names[1]
+
+print(names)
+
+#.clear() method
+names = ["Ranjita", "Alex", "John"]
+
+names.clear()
+
+print(names)
