@@ -88,3 +88,8 @@ names = ["Ranjita", "Alex", "John"]
 print("Ranjita" in names)
 print("David" in names)
 
+#Looping through a
+names = ["Ranjita", "Alex", "John"]
+
+for name in names:
+    print(name)
