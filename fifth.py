@@ -121,3 +121,10 @@ print(numbers)
 numbers.sort(reverse=True)
 
 print(numbers)
+
+#for srtings
+names = ["John", "Alex", "Ranjita"]
+
+names.sort()
+
+print(names)
