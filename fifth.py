@@ -81,3 +81,10 @@ names = ["Ranjita", "Alex", "John"]
 names.clear()
 
 print(names)
+
+#checking if an item exists in a list
+names = ["Ranjita", "Alex", "John"]
+
+print("Ranjita" in names)
+print("David" in names)
+
