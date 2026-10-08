@@ -110,3 +110,14 @@ numbers = [10, 25, 7, 42, 18]
 print(max(numbers))
 print(min(numbers))
 print(min(numbers))
+
+#Sorting lists
+numbers = [5, 2, 8, 1, 9]
+
+numbers.sort()
+
+print(numbers)
+
+numbers.sort(reverse=True)
+
+print(numbers)
