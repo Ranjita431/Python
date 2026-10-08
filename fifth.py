@@ -51,3 +51,12 @@ b = [4, 5, 6]
 a.extend(b)
 
 print(a)
+
+#remove() method
+names = ["Ranjita", "Alex", "John"]
+
+names.remove("Alex")
+
+print(names)
+
+
