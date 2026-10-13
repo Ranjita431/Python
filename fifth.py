@@ -136,3 +136,8 @@ numbers = [1, 2, 3, 4, 5]
 numbers.reverse()
 
 print(numbers)
+
+#.count()
+numbers = [1, 2, 2, 3, 2, 4]
+
+print(numbers.count(2))
