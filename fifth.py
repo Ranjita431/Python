@@ -141,3 +141,8 @@ print(numbers)
 numbers = [1, 2, 2, 3, 2, 4]
 
 print(numbers.count(2))
+
+#.index()
+names = ["Ranjita", "Alex", "John"]
+
+print(names.index("Alex"))
