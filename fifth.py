@@ -146,3 +146,12 @@ print(numbers.count(2))
 names = ["Ranjita", "Alex", "John"]
 
 print(names.index("Alex"))
+
+#nested lists
+students = [
+    ["Ranjita", 3.50],
+    ["Alex", 3.80],
+    ["John", 3.20]
+]
+
+print(students[0])
