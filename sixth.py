@@ -24,6 +24,13 @@ print(numbers[:3])
 print(numbers[::-1])
 
 #Immutable tuple
-fruits = ("apple", "banana", "mango")
+#fruits = ("apple", "banana", "mango")
 
-fruits[0] = "orange"
+#fruits[0] = "orange"
+
+#Creating a tuple with one element
+a = (10)
+b = (10,)
+
+print(type(a))
+print(type(b))
