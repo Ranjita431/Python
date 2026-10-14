@@ -34,3 +34,8 @@ b = (10,)
 
 print(type(a))
 print(type(b))
+
+#Useful tuple element
+numbers = (10, 20, 30, 40)
+
+print(len(numbers))
