@@ -22,3 +22,8 @@ numbers = (10, 20, 30, 40, 50)
 print(numbers[1:4])
 print(numbers[:3])
 print(numbers[::-1])
+
+#Immutable tuple
+fruits = ("apple", "banana", "mango")
+
+fruits[0] = "orange"
