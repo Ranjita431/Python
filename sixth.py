@@ -45,3 +45,8 @@ numbers = (10, 20, 30, 40)
 
 print(20 in numbers)
 print(50 in numbers)
+
+#counting occurances
+numbers = (10, 20, 10, 30, 10)
+
+print(numbers.count(10))
