@@ -11,3 +11,9 @@ print(type(empty_set))
 empty_set = set()
 
 print(type(empty_set))
+
+
+#sets do not support indexing
+#fruits = {"apple", "banana", "mango"}
+
+#print(fruits[0])
