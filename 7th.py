@@ -37,3 +37,11 @@ numbers = {1, 2, 3}
 numbers.update([4, 5, 6])
 
 print(numbers)
+
+#removing items from a set
+numbers = {10, 20, 30, 40}
+
+numbers.remove(20)
+numbers.discard(50)
+
+print(numbers)
