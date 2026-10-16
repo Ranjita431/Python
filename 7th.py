@@ -56,3 +56,9 @@ fruits = {"apple", "banana", "mango"}
 print("apple" in fruits)
 print("orange" in fruits)
 print("orange" not in fruits)
+
+
+#set operations
+python_students = {"Ram", "Sita", "Hari"}
+java_students = {"Sita", "Hari", "Gita"}
+print(python_students | java_students)
