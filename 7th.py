@@ -45,3 +45,7 @@ numbers.remove(20)
 numbers.discard(50)
 
 print(numbers)
+
+#to remove every item
+numbers.clear()
+print(numbers)
