@@ -61,4 +61,9 @@ print("orange" not in fruits)
 #set operations
 python_students = {"Ram", "Sita", "Hari"}
 java_students = {"Sita", "Hari", "Gita"}
+
+#union
 print(python_students | java_students)
+
+#intersection
+print(python_students & java_students)
