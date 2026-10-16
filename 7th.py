@@ -17,3 +17,9 @@ print(type(empty_set))
 #fruits = {"apple", "banana", "mango"}
 
 #print(fruits[0])
+
+#we can do 
+fruits = {"apple", "banana", "mango"}
+
+for fruit in fruits:
+    print(fruit)
