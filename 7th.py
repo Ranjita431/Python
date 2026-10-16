@@ -70,3 +70,6 @@ print(python_students & java_students)
 
 #difference
 print(python_students - java_students)
+
+#symmetric difference
+print(python_students ^ java_students)
