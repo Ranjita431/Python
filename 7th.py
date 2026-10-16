@@ -49,3 +49,10 @@ print(numbers)
 #to remove every item
 numbers.clear()
 print(numbers)
+
+#checking whether an item is present in a set
+fruits = {"apple", "banana", "mango"}
+
+print("apple" in fruits)
+print("orange" in fruits)
+print("orange" not in fruits)
