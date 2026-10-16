@@ -30,3 +30,10 @@ numbers = {1, 2, 3}
 numbers.add(4)
 
 print(numbers)
+
+#update
+numbers = {1, 2, 3}
+
+numbers.update([4, 5, 6])
+
+print(numbers)
