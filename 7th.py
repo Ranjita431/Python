@@ -23,3 +23,10 @@ fruits = {"apple", "banana", "mango"}
 
 for fruit in fruits:
     print(fruit)
+
+#adding items to a set
+numbers = {1, 2, 3}
+
+numbers.add(4)
+
+print(numbers)
