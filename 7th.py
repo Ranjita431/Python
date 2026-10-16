@@ -67,3 +67,6 @@ print(python_students | java_students)
 
 #intersection
 print(python_students & java_students)
+
+#difference
+print(python_students - java_students)
