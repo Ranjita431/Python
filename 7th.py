@@ -73,3 +73,10 @@ print(python_students - java_students)
 
 #symmetric difference
 print(python_students ^ java_students)
+
+
+#another method
+python_students.union(java_students)
+python_students.intersection(java_students)
+python_students.difference(java_students)
+python_students.symmetric_difference(java_students)
