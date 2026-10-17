@@ -89,3 +89,11 @@ c = {7, 8}
 print(a.issubset(b))
 print(b.issuperset(a))
 print(a.isdisjoint(c))
+
+#removing duplicate data
+student_ids = [101, 102, 103, 101, 104, 102, 105]
+
+unique_ids = set(student_ids)
+
+print(unique_ids)
+print("Total unique students:", len(unique_ids))
