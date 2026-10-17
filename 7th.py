@@ -80,3 +80,12 @@ python_students.union(java_students)
 python_students.intersection(java_students)
 python_students.difference(java_students)
 python_students.symmetric_difference(java_students)
+
+#comparing sets
+a = {1, 2}
+b = {1, 2, 3}
+c = {7, 8}
+
+print(a.issubset(b))
+print(b.issuperset(a))
+print(a.isdisjoint(c))
