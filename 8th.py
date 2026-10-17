@@ -12,3 +12,13 @@ print(student["course"])
 
 print(student.get("grade"))
 print(student.get("grade", "Not available"))
+
+#add and update items in a dictionary
+student = {
+    "name": "Ranjita",
+    "age": 21
+}
+
+student["grade"] = "A"
+
+print(student)
