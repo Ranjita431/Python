@@ -74,3 +74,7 @@ student = {
 print("name" in student)
 print("grade" in student)
 print("grade" not in student)
+
+#imporatnt in checks keys not values
+print("Ranjita" in student)          # False
+print("Ranjita" in student.values()) # True
