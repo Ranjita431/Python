@@ -62,3 +62,15 @@ for value in student.values():
 #use items
 for key, value in student.items():
     print(key, ":", value)
+
+
+
+#checking whether a key exists in a dictionary
+student = {
+    "name": "Ranjita",
+    "age": 21
+}
+
+print("name" in student)
+print("grade" in student)
+print("grade" not in student)
