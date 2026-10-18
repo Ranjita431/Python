@@ -22,3 +22,13 @@ student = {
 student["grade"] = "A"
 
 print(student)
+
+#remove items
+student = {
+    "name": "Ranjita",
+    "age": 21,
+    "course": "BEIT"
+}
+
+student.pop("age")
+print(student)
