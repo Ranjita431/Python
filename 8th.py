@@ -48,3 +48,9 @@ print(student.keys())
 print(student.values())
 print(student.items())
 print(len(student))
+
+#Loop through keys
+student = {"name": "Ranjita", "age": 21, "course": "BEIT"}
+
+for key in student:
+    print(key)
