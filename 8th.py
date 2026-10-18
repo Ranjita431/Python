@@ -36,3 +36,15 @@ print(student)
 #using del
 del student["course"]
 print(student)
+
+#Dictionary methods you should know
+student = {
+    "name": "Ranjita",
+    "age": 21,
+    "course": "BEIT"
+}
+
+print(student.keys())
+print(student.values())
+print(student.items())
+print(len(student))
