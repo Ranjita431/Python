@@ -54,3 +54,7 @@ student = {"name": "Ranjita", "age": 21, "course": "BEIT"}
 
 for key in student:
     print(key)
+
+#loop through values
+for value in student.values():
+    print(value)
