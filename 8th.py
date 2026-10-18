@@ -32,3 +32,7 @@ student = {
 
 student.pop("age")
 print(student)
+
+#using del
+del student["course"]
+print(student)
