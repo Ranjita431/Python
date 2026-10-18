@@ -58,3 +58,7 @@ for key in student:
 #loop through values
 for value in student.values():
     print(value)
+
+#use items
+for key, value in student.items():
+    print(key, ":", value)
