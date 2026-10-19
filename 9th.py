@@ -25,3 +25,8 @@ names = ["ram", "sita", "hari"]
 uppercase_names = [name.upper() for name in names]
 
 print(uppercase_names)
+
+#list of squares
+squares = [x ** 2 for x in range(1, 6)]
+
+print(squares)
