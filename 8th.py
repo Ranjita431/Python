@@ -96,3 +96,11 @@ print(students["student1"]["name"])
 print(students["student2"]["grade"])
 
 students["student1"]["name"]
+
+#Dictionary keys: important rules
+data = {
+    "age": 20,
+    "age": 22
+}
+
+print(data)
