@@ -17,3 +17,11 @@ numbers = [1, 2, 3, 4, 5]
 doubles = [number * 2 for number in numbers]
 
 print(doubles)
+
+
+#convert strings to uppercase
+names = ["ram", "sita", "hari"]
+
+uppercase_names = [name.upper() for name in names]
+
+print(uppercase_names)
