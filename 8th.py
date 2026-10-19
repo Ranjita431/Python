@@ -78,3 +78,19 @@ print("grade" not in student)
 #imporatnt in checks keys not values
 print("Ranjita" in student)          # False
 print("Ranjita" in student.values()) # True
+
+
+#Bested dictionaries
+students = {
+    "student1": {
+        "name": "Ranjita",
+        "grade": "A"
+    },
+    "student2": {
+        "name": "Sita",
+        "grade": "B"
+    }
+}
+
+print(students["student1"]["name"])
+print(students["student2"]["grade"])
