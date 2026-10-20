@@ -30,3 +30,13 @@ print(uppercase_names)
 squares = [x ** 2 for x in range(1, 6)]
 
 print(squares)
+
+#List comprehension with an if condition
+numbers = [1, 2, 3, 4, 5, 6]
+evens = []
+
+for number in numbers:
+    if number % 2 == 0:
+        evens.append(number)
+
+print(evens)
