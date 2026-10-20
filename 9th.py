@@ -50,3 +50,10 @@ result = [
 ]
 
 print(result)
+
+#Set comprehension
+numbers = range(1, 11)
+
+even_squares = {n ** 2 for n in numbers if n % 2 == 0}
+
+print(even_squares)
