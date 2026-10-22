@@ -63,3 +63,9 @@ print(even_squares)
 squares = {n: n ** 2 for n in range(1, 6)}
 
 print(squares)
+
+
+#Dictionary comprehension
+square = {n: n ** 2 for n in range(1, 6)}
+
+print(square)
