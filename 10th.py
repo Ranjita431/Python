@@ -7,3 +7,7 @@ for number in range(1, 6):
 print(squares)
 
 
+for number in range(5,10):
+    squares.append(number ** 2)
+
+print(squares)
