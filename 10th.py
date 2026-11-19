@@ -34,3 +34,14 @@ print(lower_case)
 #Create a list of squares
 squares = [x ** 2 for x in range(1, 6)]
 print(squares)
+
+
+#list comprehension with an if condition
+numbers = [1, 2, 3, 4, 5, 6]
+evens = []
+
+for number in numbers:
+    if number % 2 == 0:
+        evens.append(number)
+
+print(evens)
