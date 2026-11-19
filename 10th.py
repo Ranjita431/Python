@@ -29,3 +29,8 @@ print(uppercase_names)
 names = ["RAM", "SITA", "HARI"]
 lower_case = [name.lower() for name in names]
 print(lower_case)
+
+
+#Create a list of squares
+squares = [x ** 2 for x in range(1, 6)]
+print(squares)
