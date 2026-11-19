@@ -23,3 +23,9 @@ print(squares)
 names = ["ram", "sita", "hair"]
 uppercase_names = [name.upper() for name in names]
 print(uppercase_names)
+
+
+#convert strings to lowercase
+names = ["RAM", "SITA", "HARI"]
+lower_case = [name.lower() for name in names]
+print(lower_case)
