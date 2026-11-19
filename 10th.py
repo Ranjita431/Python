@@ -11,3 +11,9 @@ for number in range(5,10):
     squares.append(number ** 2)
 
 print(squares)
+
+
+#List comprehension
+numbers = [2, 3, 4, 5, 6]
+squares = [numbers ** 2 for numbers in numbers]
+print(squares)
