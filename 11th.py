@@ -7,3 +7,8 @@ student = {
 student["grade"] = "A"
 
 print(student)
+
+#update
+student["age"] = 22
+
+print(student["age"])
